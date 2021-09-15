@@ -1,0 +1,24 @@
+html * {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  max-width: 1024PX;
+  margin: 0 auto;
+}
+
+html[flow] {
+  max-width: auto;
+}
+
+body {
+  position: relative;
+  color: #111;
+  line-height: 1.5;
+  transform: translateZ(0);
+}
+
+img {
+  display: block;
+}

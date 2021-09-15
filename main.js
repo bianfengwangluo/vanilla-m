@@ -1,4 +1,4 @@
-import './src/css/common.scss';
+import './src/assets/css/common.scss';
 
 const rootValue = 100;
 document.documentElement.style.fontSize = (rootValue * Math.min(1024, window.innerWidth)) / 750 + 'px';
