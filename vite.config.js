@@ -1,6 +1,7 @@
 const path = require('path');
 
 export default {
+  base: './',
   build: {
     rollupOptions: {
       input: {

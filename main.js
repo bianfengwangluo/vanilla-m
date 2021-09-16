@@ -7,5 +7,6 @@ window.addEventListener('load', () => {
 });
 
 window.addEventListener('resize', () => {
-  document.documentElement.style.fontSize = (rootValue * Math.min(1024, window.innerWidth)) / 750 + 'px';
+  const root = document.documentElement;
+  root.style.fontSize = (rootValue * Math.min(1024, root.offsetWidth)) / 750 + 'px';
 });
